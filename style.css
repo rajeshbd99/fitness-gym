@@ -1,18 +1,30 @@
 *{
   margin: 0px;
   padding: 0px;  
+  transition: 0.8ms;
+  scroll-behavior: smooth;
+}
+.company-logo{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+
 }
 
 .menu-container{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   color: white;
   background-color: black;
   padding: 10px;
 }
 
+
+
 .menu-item{
   display: flex;
+  justify-content:last baseline;
 }
 
 .menu-item li{
@@ -20,6 +32,8 @@
   margin: 10px;
   padding: 15;
   font-size: 15px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .menu-item li:hover{
@@ -124,6 +138,7 @@
 .about-description{
   margin-top: 80px;
   padding: 20px;
+  font-size: large;
 }
 
 .about-right{
@@ -165,11 +180,17 @@
 
 .services-container{
   margin-top:100px;
+  display:flex;
+  justify-content:space-evenly;
+  padding: 80px;
 }
 .Service1{
-  width:350px;
-  height:340px;
-  border:1px solid gray;
+  width:420px;
+  height:480px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: left;
+  box-shadow: 8px 8px 16px rgb(0, 0, 0);
+  border-radius: 10px;
 }
 
 .service-img img{
@@ -179,6 +200,9 @@
 .service-footer{
   display: flex;
   justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 .batch{
@@ -188,6 +212,73 @@
 .batch-img{
   width:50px;
   top:-30px;
-  left:300px;
+  left:360px;
   position: absolute;
+}
+
+.join{
+  color: red;
+}
+
+.fitness{
+  color:red
+}
+
+.pera{
+  margin-left: 20px;
+  padding: 7px;
+
+}
+
+.footer-container{
+  padding: 100px;
+  line-height:3;
+}
+
+.footer{
+  float: left;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer h5 {
+  margin-top: 50px;
+  word-spacing: 25px;
+  font-size: 14px;
+  /* text-align: center; */
+  color: #8a8d91;
+  padding-left: 800px;
+
+}
+
+.footer h5 a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Alegreya SC', serif;
+}
+
+.footer h5 a:hover {
+  color: red;
+  text-decoration: underline;
+
+}
+
+.footer p {
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  padding-left: 700px;
+}
+
+.footer p a {
+  color: red;
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  color: red;
+  text-decoration: underline;
+
 }
